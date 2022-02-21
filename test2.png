@@ -1,0 +1,8 @@
+from mss import mss
+import mss
+monik=1
+def screen():
+    global Resolution
+    sct = mss.mss()
+    filename = sct.shot(mon=monik, output='/screen.png')
+
